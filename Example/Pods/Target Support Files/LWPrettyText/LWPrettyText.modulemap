@@ -1,0 +1,6 @@
+framework module LWPrettyText {
+  umbrella header "LWPrettyText-umbrella.h"
+
+  export *
+  module * { export * }
+}

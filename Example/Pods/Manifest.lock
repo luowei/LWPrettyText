@@ -1,0 +1,16 @@
+PODS:
+  - LWPrettyText (1.0.0)
+
+DEPENDENCIES:
+  - LWPrettyText (from `../`)
+
+EXTERNAL SOURCES:
+  LWPrettyText:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LWPrettyText: 512b00d2cef945ac0aa28de2f65e0d79c7e67569
+
+PODFILE CHECKSUM: 1abd790c6f2c0c3123dc490b599a5b2224b4f26e
+
+COCOAPODS: 1.8.3

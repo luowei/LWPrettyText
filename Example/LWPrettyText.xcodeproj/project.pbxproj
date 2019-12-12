@@ -21,9 +21,11 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		ABCB6590BB84EBE45E7454B9 /* Pods_LWPrettyText_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC302822688B9FCBD355A4A /* Pods_LWPrettyText_Example.framework */; };
 		DDB608FC0C5B56F5773C21DC /* Pods_LWPrettyText_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BA1EE7E5D5EE3B2D298A01 /* Pods_LWPrettyText_Tests.framework */; };
+		EAC0034D23A23FBF00BAE513 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC0034C23A23FBF00BAE513 /* Main.storyboard */; };
+		EAC0035023A2400600BAE513 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC0034E23A2400600BAE513 /* SecondViewController.m */; };
+		EAC0035223A2404100BAE513 /* Test.html in Resources */ = {isa = PBXBuildFile; fileRef = EAC0035123A2404100BAE513 /* Test.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		068F0995A124498A98C0DF59 /* LWPrettyText.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LWPrettyText.podspec; path = ../LWPrettyText.podspec; sourceTree = "<group>"; };
-		193241DFDAABABA7B84C547A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		068F0995A124498A98C0DF59 /* LWPrettyText.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LWPrettyText.podspec; path = ../LWPrettyText.podspec; sourceTree = "<group>"; };
+		193241DFDAABABA7B84C547A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		37BA1EE7E5D5EE3B2D298A01 /* Pods_LWPrettyText_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LWPrettyText_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A5CFCCA58EF771895BF7720 /* Pods-LWPrettyText_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWPrettyText_Tests.release.xcconfig"; path = "Target Support Files/Pods-LWPrettyText_Tests/Pods-LWPrettyText_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LWPrettyText_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWPrettyText_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,10 +65,13 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71A0DB5D619E6628A5623CF9 /* Pods-LWPrettyText_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWPrettyText_Example.debug.xcconfig"; path = "Target Support Files/Pods-LWPrettyText_Example/Pods-LWPrettyText_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7C7C3CADBD4B25AD3BBACF39 /* Pods-LWPrettyText_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWPrettyText_Example.release.xcconfig"; path = "Target Support Files/Pods-LWPrettyText_Example/Pods-LWPrettyText_Example.release.xcconfig"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DC302822688B9FCBD355A4A /* Pods_LWPrettyText_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LWPrettyText_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2802DA795C9FC6F0D1D5442 /* Pods-LWPrettyText_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWPrettyText_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LWPrettyText_Tests/Pods-LWPrettyText_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DC6F3902A698720A172FE19D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DC6F3902A698720A172FE19D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EAC0034C23A23FBF00BAE513 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EAC0034E23A2400600BAE513 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		EAC0034F23A2400600BAE513 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		EAC0035123A2404100BAE513 /* Test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Test.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +108,6 @@
 				A2802DA795C9FC6F0D1D5442 /* Pods-LWPrettyText_Tests.debug.xcconfig */,
 				3A5CFCCA58EF771895BF7720 /* Pods-LWPrettyText_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -146,10 +150,13 @@
 			children = (
 				6003F59C195388D20070C39A /* LWAppDelegate.h */,
 				6003F59D195388D20070C39A /* LWAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* LWViewController.h */,
 				6003F5A6195388D20070C39A /* LWViewController.m */,
+				EAC0034F23A2400600BAE513 /* SecondViewController.h */,
+				EAC0034E23A2400600BAE513 /* SecondViewController.m */,
+				EAC0034C23A23FBF00BAE513 /* Main.storyboard */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				EAC0035123A2404100BAE513 /* Test.html */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -258,6 +265,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -277,10 +285,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				EAC0035223A2404100BAE513 /* Test.html in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				EAC0034D23A23FBF00BAE513 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +373,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC0035023A2400600BAE513 /* SecondViewController.m in Sources */,
 				6003F59E195388D20070C39A /* LWAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LWViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
