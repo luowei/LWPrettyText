@@ -22,7 +22,7 @@ pod 'LWPrettyText'
 
 **Carthage**
 ```ruby
-github "luowei/LWDrawboard"
+github "luowei/LWPrettyText"
 ```
 
 
