@@ -26,8 +26,6 @@
     NSString *labelText = @"Do any additional setup after loading the view, typically from a nib.";
     NSMutableAttributedString *attLabelText = [labelText pt_color:[UIColor greenColor]];
     [attLabelText pt_backgroundColor:[UIColor brownColor]];
-    [attLabelText pt_backgroundColor:[UIColor brownColor]];
-    [attLabelText pt_backgroundColor:[UIColor brownColor]];
 
     [attLabelText pt_color:[UIColor redColor] range:NSMakeRange(3, 3)];
 
