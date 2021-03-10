@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LWPrettyText'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of LWPrettyText.'
+  s.summary          = '一个OC版富文本Category组件包，快速构造复杂的NSAttributeString。'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+LWPrettyText，OC完美的富文本Category组件包，使用一行代码构造复杂的NSAttributeString。
                        DESC
 
-  s.homepage         = 'https://gitlab.com/ioslibraries1/lwprettytext.git'
+  s.homepage         = 'https://github.com/luowei/LWPrettyText'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'luowei' => 'luowei@wodedata.com' }
-  s.source           = { :git => 'https://gitlab.com/ioslibraries1/lwprettytext.git' }
+  s.source           = { :git => 'https://github.com/luowei/LWPrettyText.git'}
+  # s.source           = { :git => 'https://gitlab.com/ioslibraries1/lwprettytext.git' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
