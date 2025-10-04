@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint LWPrettyText.podspec' to ensure this is a
+# Be sure to run `pod lib lint LWPrettyText_swift.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'LWPrettyText'
+  s.name             = 'LWPrettyText_swift'
   s.version          = '1.0.0'
-  s.summary          = '一个OC版富文本Category组件包，快速构造复杂的NSAttributeString。'
+  s.summary          = 'LWPrettyText Swift version - Rich text builder written in Swift.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-LWPrettyText，OC完美的富文本Category组件包，使用一行代码构造复杂的NSAttributeString。
+LWPrettyText Swift version - This is the Swift submodule of LWPrettyText containing rich text builder components written in Swift. Build complex NSAttributedString with simple, readable code.
                        DESC
 
   s.homepage         = 'https://github.com/luowei/LWPrettyText'
@@ -26,19 +26,18 @@ LWPrettyText，OC完美的富文本Category组件包，使用一行代码构造�
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'luowei' => 'luowei@wodedata.com' }
   s.source           = { :git => 'https://github.com/luowei/LWPrettyText.git'}
-  # s.source           = { :git => 'https://gitlab.com/ioslibraries1/lwprettytext.git' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.swift_version = '5.0'
 
-  s.source_files = 'LWPrettyText/Classes/**/*'
-  s.exclude_files = 'LWPrettyText/Classes/**/*.swift'
+  s.source_files = 'LWPrettyText_swift/Classes/**/*'
 
   # s.resource_bundles = {
-  #   'LWPrettyText' => ['LWPrettyText/Assets/*.png']
+  #   'LWPrettyText_swift' => ['LWPrettyText_swift/Assets/*.png']
   # }
 
-  s.public_header_files = 'LWPrettyText/Classes/**/*.h'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

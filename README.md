@@ -11,6 +11,7 @@
 
 ## Table of Contents
 
+- [Swift Version](./README_SWIFT_VERSION.md)
 - [Introduction](#introduction)
 - [Features](#features)
 - [Requirements](#requirements)
