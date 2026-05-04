@@ -1,5 +1,12 @@
 # LWPrettyText
 
+
+## graphify Knowledge Graph
+
+- Interactive graph: https://luowei.github.io/LWPrettyText/
+- Report: https://luowei.github.io/LWPrettyText/GRAPH_REPORT.md
+- Graph data: https://luowei.github.io/LWPrettyText/graph.json
+
 [![CI Status](https://img.shields.io/travis/luowei/LWPrettyText.svg?style=flat)](https://travis-ci.org/luowei/LWPrettyText)
 [![Version](https://img.shields.io/cocoapods/v/LWPrettyText.svg?style=flat)](https://cocoapods.org/pods/LWPrettyText)
 [![License](https://img.shields.io/cocoapods/l/LWPrettyText.svg?style=flat)](https://cocoapods.org/pods/LWPrettyText)
